@@ -1,0 +1,72 @@
+.cards {
+  background-color: rgb(244, 247, 253);
+}
+
+.cards__wrapper {
+  padding-top: 40px;
+}
+.cardsss {
+  margin-top: 40px;
+}
+.cards__item {
+  margin-bottom: 40px;
+}
+
+.cards__discounts {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  background-color: #fff;
+  width: 250px;
+  border-radius: 20px;
+}
+.card__items {
+  padding: 15px;
+}
+.img__div {
+  text-align: center;
+}
+.card__item {
+  max-width: 100%;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.star {
+  margin-bottom: 20px;
+}
+.del {
+  color: #af5679;
+  font-size: 14px;
+  font-weight: 600;
+}
+.price__item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.one__click {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  background-color: #008dff;
+  width: 100%;
+  padding: 8px 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.one__click:hover {
+  background-color: #00cd98;
+}
+
+.one__click:active {
+  background-color: rgba(0, 205, 152, 0.4);
+}

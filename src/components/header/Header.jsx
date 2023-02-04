@@ -97,19 +97,47 @@ const Header = () => {
               <img width={24} src={Burger} alt="" />
               <p className="news">Barcha bo'limlar</p>
             </div>
-            <p className="news">Yangiliklar</p>
+            <p>
+              <a className="news" href="/">
+                Yangiliklar
+              </a>
+            </p>
 
-            <p className="news">Yangi kelganlar</p>
+            <p>
+              <a className="news" href="/">
+                Yangi kelganlar
+              </a>
+            </p>
 
-            <p className="news">Chegirmalar</p>
+            <p>
+              <a className="news" href="/">
+                Chegirmalar
+              </a>
+            </p>
 
-            <p className="news">Kitoblar</p>
+            <p>
+              <a className="news" href="/">
+                Kitoblar
+              </a>
+            </p>
 
-            <p className="news">Telefonlar va gadjetlar</p>
+            <p>
+              <a className="news" href="/">
+                Telefonlar va gadjetlar
+              </a>
+            </p>
 
-            <p className="news">Televizorlar</p>
+            <p>
+              <a className="news" href="/">
+                Televizorlar{" "}
+              </a>
+            </p>
 
-            <p className="news">Sport buyumlari</p>
+            <p>
+              <a className="news" href="/">
+                Sport buyumlari{" "}
+              </a>
+            </p>
           </div>
         </div>
       </div>
