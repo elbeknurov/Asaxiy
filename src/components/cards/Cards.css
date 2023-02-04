@@ -4,12 +4,17 @@
 
 .cards__wrapper {
   padding-top: 40px;
+  margin-bottom: 40px;
 }
 .cardsss {
   margin-top: 40px;
 }
 .cards__item {
   margin-bottom: 40px;
+  color: #858997;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .cards__discounts {

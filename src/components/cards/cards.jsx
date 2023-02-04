@@ -131,7 +131,7 @@ const Cards = () => {
           </div>
         </div>
         <div className="cardsss">
-          <p className="cards__item">Yangi chegirmalar</p>
+          <p className="cards__item">Siz uchun tanladik</p>
           <div className="cards__discounts">
             <div className="card">
               <div className="img__div">
