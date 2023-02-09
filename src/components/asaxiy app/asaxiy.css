@@ -1,0 +1,31 @@
+.play {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  background-color: #008dff;
+}
+.play__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.play__right {
+  text-align: center;
+}
+.play__btn {
+  display: flex;
+  gap: 10px;
+}
+.play__img {
+  margin-bottom: 15px;
+}
+
+.play__item {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 15px;
+}
