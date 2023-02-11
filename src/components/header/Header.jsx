@@ -94,7 +94,9 @@ const Header = () => {
         <div className="header__bottom container">
           <div className="bottom__wrapper">
             <div className="b">
-              <img width={24} src={Burger} alt="" />
+              <a href="/">
+                <img width={24} src={Burger} alt="" />
+              </a>
               <p className="news">Barcha bo'limlar</p>
             </div>
             <p>

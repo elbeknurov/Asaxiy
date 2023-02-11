@@ -1,4 +1,4 @@
-import "./asaxiy.css";
+import "./asaxiyapp.css";
 
 const Play = () => {
   return (

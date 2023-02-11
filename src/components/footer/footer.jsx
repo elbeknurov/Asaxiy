@@ -122,6 +122,9 @@ const Footer = () => {
           <div className="networks">
             <div className="network__wrapper">
               <p className="data__item">Biz ijtimoiy tarmoqlarda :</p>
+              <a href="">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
             </div>
           </div>
         </div>
