@@ -1,9 +1,11 @@
 import "./Cards.css";
 import React, { useEffect, useState } from "react";
 // import Shopping from "../img/Shopping.svg";
-import StarAsaxiy from "../img/StarAsaxiy.svg";
+// import StarAsaxiy from "../img/StarAsaxiy.svg";
+import { useNavigate } from "react-router-dom";
 const Cards = () => {
   const [card, setCard] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("https://dummyjson.com/products")
@@ -37,11 +39,14 @@ const Cards = () => {
                   <div className="card__items">
                     <p className="card__item">{item.title}</p>
                     <a href="/">{item.rating}</a>
-                    <p>
-                      <del className="del">4 617 000 so'm</del>
-                    </p>
+
                     <p className="price__item">{item.price}</p>
-                    <button className="one__click">Bir klikda olish</button>
+                    <button
+                      onClick={() => navigate(`/single/${item.id}`)}
+                      className="one__click"
+                    >
+                      Sotib olish{" "}
+                    </button>
                   </div>
                 </div>
               );

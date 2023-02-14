@@ -26,6 +26,7 @@
 }
 
 .header__input {
+  outline: none;
   width: 580px;
   padding: 12px 10px;
   border-radius: 10px;
@@ -38,7 +39,9 @@
   border: none;
   cursor: pointer;
 }
-
+.list {
+  align-items: center;
+}
 .sapn__pay {
   font-family: "Roboto";
   font-size: 14px;
@@ -62,4 +65,7 @@
   font-size: 15px;
   font-weight: 500;
   color: #282830;
+}
+.user path:hover {
+  fill: #008dff;
 }

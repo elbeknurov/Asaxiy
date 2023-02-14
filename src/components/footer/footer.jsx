@@ -103,18 +103,18 @@ const Footer = () => {
             <div className="contact__wrapper">
               <p className="contact__item"> Biz bilan aloqa</p>
               <p className="contact__text">
-                <a className="contact__text" href="tel:998712000105">
-                  Tel:+998712000105
+                <a className="contact__text" href="tel:998912413416">
+                  Tel:+998912413416
                 </a>
               </p>
               <p className="contact__text">
-                <a className="contact__text" href="mailto:info@asaxiy.uz">
-                  Gmail:info@asaxiy.uz
+                <a className="contact__text" href="mailto:saxiyshop@gmail.com">
+                  Gmail:saxiyshopinfo@gmail.com
                 </a>
               </p>
               <p className="contact__text">
                 <a className="contact__text" href="/">
-                  Map:Chilonzor 3, Toshkent
+                  Map:Chilonzor 8, 17A uy.
                 </a>
               </p>
             </div>

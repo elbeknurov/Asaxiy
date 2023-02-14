@@ -2,19 +2,27 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Header from "./components/header/Header";
-import Slider from "./components/slider/slider";
-import Cards from "./components/cards/cards";
 import Footer from "./components/footer/footer";
-import Play from "./components/asaxiy app/asaxiyapp";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Single from "./components/single/single";
+import Main from "./components/main/main";
+import Page from "./components/notFound/404page";
+import Login from "./components/log/login";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <div>
+  <BrowserRouter>
+    <React.StrictMode>
       <Header />
-      <Slider />
-      <Cards />
-      <Play />
+
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/single/:id" element={<Single />} />
+        <Route path="*" element={<Page />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+
       <Footer />
-    </div>
-  </React.StrictMode>
+    </React.StrictMode>
+  </BrowserRouter>
 );
