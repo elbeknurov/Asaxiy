@@ -1,0 +1,70 @@
+.pay {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.pay__card {
+  padding: 30px;
+  width: 455px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.pay__title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 35px;
+  color: #13306a;
+  margin-bottom: 30px;
+}
+.pay__text {
+  width: 373px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #8e8e8e;
+  margin-bottom: 30px;
+}
+.pay__namuna {
+  margin-bottom: 30px;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 4px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 1.5;
+  color: #5f5f5f;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 2px solid #c2c6d1;
+  border-radius: 8px;
+  outline: none;
+}
+.pay__button {
+  margin-bottom: 30px;
+  padding: 12px 15px;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #fff;
+  background-color: #008dff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.pay__button:hover {
+  background-color: #00cd98;
+}
+
+.pay__button:active {
+  background-color: rgba(0, 205, 152, 0.4);
+}
+
+.pay__b {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-bottom: 10px;
+}

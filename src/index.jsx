@@ -8,6 +8,8 @@ import Single from "./components/single/single";
 import Main from "./components/main/main";
 import Page from "./components/notFound/404page";
 import Login from "./components/log/login";
+import Pay from "./components/pay/pay";
+import Delivery from "./components/delivery/delivery";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,8 +22,9 @@ root.render(
         <Route path="/single/:id" element={<Single />} />
         <Route path="*" element={<Page />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/pay" element={<Pay />} />
+        <Route path="/delivery" element={<Delivery />} />
       </Routes>
-
       <Footer />
     </React.StrictMode>
   </BrowserRouter>

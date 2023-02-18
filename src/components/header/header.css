@@ -1,5 +1,7 @@
 .header {
-  margin-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: #fff;
   margin-bottom: 25px;
 }
 .border {

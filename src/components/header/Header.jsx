@@ -1,6 +1,6 @@
 import "./header.css";
 import Burger from "../img/Burger.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className="header">
@@ -25,7 +25,7 @@ const Header = () => {
               </form>
               <ul className="list">
                 <li className="item">
-                  <a href="#">
+                  <Link to="/pay">
                     <svg
                       className="user"
                       width="50"
@@ -56,11 +56,12 @@ const Header = () => {
                         stroke-linecap="round"
                       />
                     </svg>
-                  </a>
-                  <span className="sapn__pay">To'lov</span>
+                    <br />
+                    <span className="sapn__pay">To'lov</span>
+                  </Link>
                 </li>
                 <li className="item">
-                  <a href="#">
+                  <Link to="/delivery">
                     <svg
                       className="user"
                       width={50}
@@ -84,8 +85,9 @@ const Header = () => {
                         d="M23.38,18.06a1,1,0,0,1-.69-.28L20.81,16a1,1,0,1,1,1.39-1.44l1.18,1.13,2.43-2.33a1,1,0,0,1,1.42,0,1,1,0,0,1,0,1.41l-3.13,3A1,1,0,0,1,23.38,18.06Z"
                       />
                     </svg>
-                  </a>
-                  <span className="sapn__pay">Trek</span>
+                    <br />
+                    <span className="sapn__pay">Trek</span>
+                  </Link>
                 </li>
                 <li className="item">
                   <a href="#">
@@ -150,7 +152,7 @@ const Header = () => {
                   <span className="sapn__pay">Sevimlilar</span>
                 </li>
                 <li className="item">
-                  <a href="#">
+                  <Link to="/login">
                     <svg
                       className="user"
                       width="50"
@@ -173,8 +175,9 @@ const Header = () => {
                         stroke-linecap="round"
                       />
                     </svg>
-                  </a>
-                  <span className="sapn__pay">Kabinet</span>
+                    <br />
+                    <span className="sapn__pay">Kabinet</span>
+                  </Link>
                 </li>
               </ul>
             </nav>

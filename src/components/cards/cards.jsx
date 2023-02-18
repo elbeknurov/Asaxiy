@@ -21,7 +21,6 @@ const Cards = () => {
       <div className="cards__wrapper container">
         <div className="cardsss">
           <p className="cards__item">Yangi chegirmalar</p>
-
           <div className="cards__discounts">
             {card.map((item) => {
               return (
